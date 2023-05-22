@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+.profile-card {
+    width: 25%;
+    height: 40%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .profile-card img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .profile-card p {
+    margin-top: 5px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .profile-card a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  nav{
+  background-color: transparent;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 25pt;
+  line-height: 80px;
+  padding: 0 45px;
+  font-weight: bold;
+}
+
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin-right:20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0  5px;
+  line-height: 80px;
+}
+
+nav ul li a {
+  font-size: 15pt;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+a.active, a:hover{
+  background: #f9fffff8;
+  transition: .5s;
+}
+a.after, a:hover{
+  background: #bb9878f8;
+  transition: .5s;
+}
+.logo-btn{
+  color: white;
+  font-size: 25pt;
+  line-height: 81px;
+  padding: 0 45px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
